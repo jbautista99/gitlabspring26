@@ -46,7 +46,7 @@ void PogoAM(void);
 void room49game(void);
 
 void dleyva14(void);
-
+void CAYfrog(void);
 
 int main(int argc, char *argv[])
 {
@@ -83,6 +83,7 @@ int main(int argc, char *argv[])
 			}
 			case 4:
 			{
+				CAYfrog();
 				puts("room4");
 				break;
 			}
@@ -643,6 +644,10 @@ void dleyva14(void)
 	printf("DL\n");
 }
 
+void CAYfrog(void)
+{
+	printf("CAY");
+}
 
 
 
